@@ -1,8 +1,8 @@
 package main
 
 import (
-  "flag",
-  "fmt"
+	"flag"
+	"fmt"
 )
 
 //TIP <p>To run your code, right-click the code and select <b>Run</b>.</p> <p>Alternatively, click
