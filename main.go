@@ -20,5 +20,11 @@ func main() {
 		fmt.Fprintf(os.Stderr, "\nOptions:\n")
 		flag.PrintDefaults()
 	}
-	var ()
+	var (
+		dateFlag = flag.String("d", "", "Date in YYYY/MM/DD or YYYY-MM-DD format")
+	)
+	flag.Parse()
+	if *dateFlag != "" {
+
+	}
 }
