@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/MrdomainOrg/DomainExpDate/irnicDate/irnicDate"
+	"github.com/MrdomainOrg/DomainExpDate/irnicDate"
 	"os"
 	"time"
 )
