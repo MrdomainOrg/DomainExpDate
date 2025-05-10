@@ -1,3 +1,3 @@
-module github.com/MrdomainOrg/DomainExpDate/irnicDate
+module irnicDate
 
 go 1.24
