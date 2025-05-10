@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/MrdomainOrg/DomainExpDate/irnicDate"
+	irnicDate "github.com/MrdomainOrg/DomainExpDate/irnicDate"
 	"os"
 	"time"
 )
@@ -28,6 +28,6 @@ func main() {
 	if *dateFlag != "" {
 
 	} else {
-		fmt.Printf("Release Date for today is: %s\n", conf.EppAddress)
+		fmt.Printf("Release Date for today is: %s\n", irnicDate.GetReleaseDate())
 	}
 }
