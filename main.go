@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/DomainExpDate/irnicDate/irnicDate"
 	"os"
 	"time"
 )
@@ -26,5 +27,7 @@ func main() {
 	flag.Parse()
 	if *dateFlag != "" {
 
+	} else {
+		fmt.Printf("Release Date for today is: %s\n", conf.EppAddress)
 	}
 }
